@@ -1,5 +1,10 @@
+# App use ApolloClient
+
+### `https://www.apollographql.com/docs/react/`
+
 # 1.Clone Repo
 
+### `git clone https://github.com/doro041/Zeleneya.git`
 
 ## 2.
 
