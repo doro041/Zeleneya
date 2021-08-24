@@ -1,5 +1,9 @@
 import React from 'react';
-import { gql, useQuery } from '@apollo/client/';
+import { useQuery, gql } from '@apollo/client';
+import { DisplayNameContainer } from '../containers/displayNameContainer';
+
+
+//Query or mutation with pass props of results to container
 
 const DISPLAY_NAME = gql`
 query Query($getUserByEmailEmail: String) {
@@ -9,9 +13,7 @@ query Query($getUserByEmailEmail: String) {
 }
 `;
 
-
-
-export const DisplayName = (email) => {
+export const DisplayNameApollo = (email) => {
 
     
    const {loading, error, data} = useQuery(DISPLAY_NAME, {
@@ -22,8 +24,6 @@ export const DisplayName = (email) => {
    if(error) return `Error! ${error}`;
     
     return (
-
-        
-        <div>{data.getUserByEmail.displayName}</div>
+        <DisplayNameContainer displayName={data.getUserByEmail.displayName}/>        
     )
 }
