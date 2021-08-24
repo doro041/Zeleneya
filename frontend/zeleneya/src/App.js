@@ -1,7 +1,6 @@
 import './App.css';
-import {DisplayName} from './components/displayName'
+import {DisplayNameApollo} from './apoloClient/displayNameApolo'
 
-const email = "dim.pramatarov@gmail.com";
 function App() {
   return (
     <div className="App">
@@ -10,7 +9,7 @@ function App() {
        <h2>My first Apollo app 🚀</h2>
        </div>
        <div>
-         <DisplayName email={email.toString().trim()}/>
+         <DisplayNameApollo />
        </div>
       </header>
     </div>
