@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { DisplayName } from '../components/DisplayName/displayName'
-
 
 //In container we create manipulations with state and pass props to View
 

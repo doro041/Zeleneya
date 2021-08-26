@@ -2,7 +2,6 @@ import React from 'react';
 import { useQuery, gql } from '@apollo/client';
 import { DisplayNameContainer } from '../containers/displayNameContainer';
 
-
 //Query or mutation with pass props of results to container
 
 const DISPLAY_NAME = gql`

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { client } from './apoloClient/apoloConfig';
+import { client } from './Apollo/configApollo';
 import {
   ApolloProvider,
 } from "@apollo/client";

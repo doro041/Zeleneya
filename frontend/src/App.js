@@ -1,5 +1,6 @@
 import './App.css';
-import {DisplayNameApollo} from './apoloClient/displayNameApolo'
+import { DisplayNameApollo } from './Apollo/displayNameApollo';
+import { RegisterApollo } from './Apollo/registerApollo';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
        </div>
        <div>
          <DisplayNameApollo />
+       </div>
+       <div>
+        <RegisterApollo />
        </div>
       </header>
     </div>
