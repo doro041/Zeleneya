@@ -1,22 +1,18 @@
 import './App.css';
-import { DisplayNameApollo } from './Apollo/displayNameApollo';
-import { RegisterApollo } from './Apollo/registerApollo';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Routes from './Routes';
 
 function App() {
   return (
-    <div className="App">
+       <div className="App">
       <header className="App-header">
-       <div>
-       <h2>My first Apollo app 🚀</h2>
-       </div>
-       <div>
-         <DisplayNameApollo />
-       </div>
-       <div>
-        <RegisterApollo />
-       </div>
+      <h2>My first Apollo app 🚀</h2>
+        <Router>
+          <Routes/>
+        </Router>
       </header>
     </div>
+   
   );
 }
 
