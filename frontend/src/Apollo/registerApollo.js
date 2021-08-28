@@ -7,8 +7,8 @@ import { RegisterContainer } from '../containers/registerContainer';
 //Query or mutation with pass props of results to container
 
 const REGISTER = gql`
-mutation Mutation($registerEmail: String, $registerUsername: String, $registerPassword: String) {
-    register(email: $registerEmail, username: $registerUsername, password: $registerPassword) {
+mutation Mutation($email: String, $username: String, $password: String) {
+    register(email: $email, username: $username, password: $password) {
       email
     }
   }
@@ -19,8 +19,9 @@ export const RegisterApollo = () => {
 
 const [registerUser, {loading, error}] = useMutation(REGISTER);
   
-   function onSubmit(registerPassword, registerUsername, registerEmail) {
-       console.log(registerPassword, registerUsername, registerEmail)
+   function onSubmit($email, $username, $password) {
+       console.log($email, $username, $password)
+       
        registerUser({
            variables: {
             password: "h@rdc0ded",
