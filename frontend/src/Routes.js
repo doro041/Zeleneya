@@ -2,14 +2,14 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import { RegisterApollo } from './Apollo/registerApollo.js';
 import {LoginApollo} from './Apollo/loginApollo.js';
-import App from './App.js';
+import { DisplayName } from './components/DisplayName/displayName.jsx';
 
 
 const Routes = () => (
     <Switch>
-        <Route exact path='/' component={App.js}/>
+        <Route exact path='/' component={LoginApollo}/>
         <Route exact path='/register' component={RegisterApollo}/>
-        <Route exact path='/login' component={LoginApollo}/>
+        <Route exact path='/displayName' component={DisplayName}/>
     </Switch>
 )
 
