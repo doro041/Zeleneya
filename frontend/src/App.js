@@ -4,9 +4,8 @@ import Routes from './Routes';
 
 function App() {
   return (
-       <div className="App">
+       <div>
       <header className="App-header">
-      <h2>My first Apollo app 🚀</h2>
         <Router>
           <Routes/>
         </Router>

@@ -1,0 +1,104 @@
+.login-screen {
+    position: absolute;
+}
+
+.greeting {
+    position: absolute;
+    width: 335px;
+    height: 100px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    margin-top: -200px;
+    
+}
+
+input {
+width: 280px;
+height: 45px;
+background: #c0fdbc;
+}
+
+.app-name {
+position: absolute;
+width: 194px;
+height: 75px;
+font-family: Lobster;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 75px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #008000;
+margin-top: -100px;
+}
+
+.p {
+    position: absolute;
+    width: 99px;
+    height: 14px;
+    left: 0px;
+    top: -17px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    
+    color: #020300;
+    
+}
+
+.entry-button {
+    position: absolute;
+width: 97px;
+height: 40px;
+position: absolute;
+width: 97px;
+height: 40px;
+
+background: #005F00;
+box-shadow: 0px 3px 4px rgba(2, 3, 0, 0.25);
+border-radius: 20px;
+
+position: absolute;
+width: 60px;
+height: 29px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #FFFFFC;
+}
+
+.username {
+    position: absolute;
+    width: 280px;
+    height: 45px;
+
+}
+
+
+.usernameInput {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #EDFEEC;
+box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.05), inset -2px -2px 10px 2px rgba(0, 0, 0, 0.05);
+}

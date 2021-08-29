@@ -16,11 +16,11 @@ export const Register = ({
         </label>
         <label>
             Email:
-        <input type="text" name="email"  onChange={onChangeEmail}/>
+        <input type="email" name="email"  onChange={onChangeEmail}/>
         </label>
         <label>
             Password:
-        <input type="text" name="password"  onChange={onChangePassword}/>
+        <input type="password" name="password"  onChange={onChangePassword}/>
         </label>
         <button type="submit">Submit</button>
         </form>
